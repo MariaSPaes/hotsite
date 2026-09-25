@@ -281,7 +281,7 @@ h2 { font-size: clamp(2.9rem, 5vw, 5rem); }
 .minor-note p { margin: 4px 0 0; color: var(--muted); font-size: .82rem; }
 .minor-note strong { display: block; color: var(--ink); font-size: .9rem; }
 
-.women { position: relative; min-height: 675px; background: #0b3d72 url("assets/mulheres-tenis.webp") center / cover no-repeat; color: var(--white); overflow: hidden; }
+.women { position: relative; min-height: 675px; background: #0b3d72 url("assets/mulheres-tenis.png") center / cover no-repeat; color: var(--white); overflow: hidden; }
 .women::before { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(6, 34, 71, .06) 0%, rgba(6, 34, 71, .18) 39%, rgba(6, 34, 71, .78) 64%, rgba(6, 34, 71, .96) 100%); content: ""; }
 .women-layout { position: relative; display: flex; min-height: 675px; align-items: center; justify-content: flex-end; }
 .women-copy { width: min(100%, 500px); transform: translateX(clamp(0px, 4vw, 76px)); }
